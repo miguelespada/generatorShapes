@@ -148,7 +148,7 @@ void ofApp::keyPressed(int key){
         case ' ':
             c ++;
             saveFile();
-            if (c > N) c = N;
+            if (c > N) c = N - 1;
             break;
             
         case '-':
